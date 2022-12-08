@@ -1,9 +1,9 @@
 // this is the prime number function ;
 
-function prime(n) {
-	let count = 0
+	let count = 0;
+function prime(num) {
 	for(let i = 0; i <= n; i++) {
-		if(n%i === 0) {
+		if(num % i === 0) {
 		count++;
 	    }
 	}
