@@ -1,4 +1,5 @@
 // this is the prime number function ;
+
 	let count = 0;
 function prime(num) {
 	for(let i = 0; i <= n; i++) {
@@ -7,10 +8,10 @@ function prime(num) {
 	    }
 	}
 	  
-	if(count === 2) {
-     console.log("yes, It's a prime");
+	if(count <= 2) {
+     console.log("Yes");
     } else {
-     console.log("no, it's not a prime");
+     console.log("No");
     }
 }
 
